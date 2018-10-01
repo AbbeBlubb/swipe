@@ -30,10 +30,10 @@ p1handleTouchEnd = event => {
   let quarter = screen.width / 4
   if (change < quarter) {
     p2.style.left = '100%'
-    p2.style.transition = 'all 0.5s ease 0s'
+    p2.style.transition = 'all 0.3s ease 0s'
   } else {
     p2.style.left = '0'
-    p2.style.transition = 'left 1s ease 0s'
+    p2.style.transition = 'left 0.5s ease 0s'
   }
 }
 
@@ -64,9 +64,9 @@ p2handleTouchEnd = event => {
   let quarter = screen.width / 4
   if (change < quarter) {
     p2.style.left = '0'
-    p2.style.transition = 'all 0.5s ease 0s'
+    p2.style.transition = 'all 0.3s ease 0s'
   } else {
     p2.style.left = '100%'
-    p2.style.transition = 'left 1s ease 0s'
+    p2.style.transition = 'left 0.5s ease 0s'
   }
 }
