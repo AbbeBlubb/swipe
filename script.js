@@ -9,7 +9,7 @@ p1handleTouchStart = event => {
   startingX = event.touches[0].clientX
   p1.style.transition = ''
   p2.style.transition = ''
-  p2.style.display= 'none';
+  //p2.style.display= 'none';
 }
 
 p1handleTouchMove = event => {
@@ -20,7 +20,7 @@ p1handleTouchMove = event => {
     return
   }
   
-  p2.style.display = 'inline-block'
+  //p2.style.display = 'inline-block'
   p2.style.left = (screen.width - change) + 'px'
   event.preventDefault()
 }
@@ -43,7 +43,7 @@ p2handleTouchStart = event => {
   startingX = event.touches[0].clientX
   p1.style.transition = ''
   p2.style.transition = ''
-  p1.style.display = 'none'
+  //p1.style.display = 'none'
 }
 
 p2handleTouchMove = event => {
@@ -54,7 +54,7 @@ p2handleTouchMove = event => {
     return
   }
   
-  p1.style.display = 'block'
+  //p1.style.display = 'inline-block'
   p2.style.left = change + 'px'
   event.preventDefault()
 }

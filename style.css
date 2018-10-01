@@ -6,26 +6,29 @@
   transform: translate(-50%, -50%);
 }
 
-.page1 {
+.page-home {
+  display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   background-color: red;
-  z-index: 0;
+
 }
 
-.page2 {
+.page-right {
+  display: inline-block;
   position: absolute;
   top: 0;
   left: 100%;
   width: 100vw;
   height: 100vh;
   background-color: yellow;
-  z-index: 5;
+
 }
 
+/*
 .transition-page2-left {
   left: 0;
   -webkit-transition: all 1s ease 0s;
@@ -35,3 +38,4 @@
   transition: all 1s ease 0s;
   display: inline-block;
 }
+*/
