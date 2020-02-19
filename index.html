@@ -8,25 +8,26 @@
   </head>
 
   <body>
+    <div class='container'>
+      <section
+        class='page-home'
+        id='page-home'
+        ontouchstart='p1handleTouchStart(event)'
+        ontouchmove='p1handleTouchMove(event)'
+        ontouchend='p1handleTouchEnd(event)'>
+        <h1>Swipe right!</h1>
+        <span class='center'>Page 1</span>
+      </section>
 
-    <div
-      class='page-home'
-      id='page-home'
-      ontouchstart='p1handleTouchStart(event)'
-      ontouchmove='p1handleTouchMove(event)'
-      ontouchend='p1handleTouchEnd(event)'>
-      <h1>Swipe right!</h1>
-      <span class='center'>Page 1</span>
-    </div>
-
-    <div
-      class='page-right'
-      id='page-right'
-      ontouchstart='p2handleTouchStart(event)'
-      ontouchmove='p2handleTouchMove(event)'
-      ontouchend='p2handleTouchEnd(event)'>
-      <h1>Swipe left!</h1>
-      <span class='center'>Page 2</span>
+      <section
+        class='page-right'
+        id='page-right'
+        ontouchstart='p2handleTouchStart(event)'
+        ontouchmove='p2handleTouchMove(event)'
+        ontouchend='p2handleTouchEnd(event)'>
+        <h1>Swipe left!</h1>
+        <span class='center'>Page 2</span>
+      </section>
     </div>
 
     <script src="script.js"></script>

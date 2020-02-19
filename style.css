@@ -1,6 +1,30 @@
 body {
-  overflow: hidden;
+  margin: 0;
   font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.page-home {
+  height: 100vh;
+  background-color: red;
+}
+
+.page-right {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
 }
 
 .center {
@@ -9,24 +33,4 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.page-home {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: red;
-}
-
-.page-right {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100vw;
-  height: 100vh;
-  background-color: yellow;
 }
