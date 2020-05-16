@@ -1,5 +1,5 @@
-# Swipe
+# Touchscreen swipe gesture
 
-Make swipe gesture on screen for pagination.
+Make swipe gestures on touchscreen to paginate.
 
-https://abbeblubb.github.io/swipe/
+[https://abbeblubb.gitlab.io/swipe/](https://abbeblubb.gitlab.io/swipe/)
